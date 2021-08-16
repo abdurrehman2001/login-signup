@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.main-box{
+    margin: 0px auto;
+    width: 50%;
+}
+.content-box{
+    border: 50px double lightblue;
+    border-radius: 30% 70%;
+    text-align: center;
+    height: 280px;
+    margin-top: 120px;
+}
+.content-box > h2{
+    font-family: "Lobster Two";
+    font-size: 42px;
+    color: lightsteelblue;
+    margin-top: 70px;
+}
+.content-box > a{
+    font-family: "Comfortaa";
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: lightsteelblue;
+    outline: none;
+}
+.content-box > a:hover{
+    color: steelblue;
+}
