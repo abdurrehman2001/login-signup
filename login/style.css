@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.main-box{
+    margin: 0px auto;
+    margin-top: 70px;
+    width: 60%;
+    background-color: lightgray;
+    border: 20px double gray;
+    text-align: center;
+    border-radius: 50%;
+    height: 450px;
+}
+.main-box:hover{
+    height: 480px;
+    transition: 1.5s;
+}
+.content-box > h1{
+    font-family: "Bebas Neue";
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 52px;
+    margin-top: 15px;
+}
+.content-box > p{
+    font-family: "Dancing Script";
+    font-size: 35px;
+    margin-top: -25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.content-box > input{
+    width: 35%;
+    padding: 25px;
+    font-size: 19px;
+    font-family: "Neucha";
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid grey;
+    outline: none;
+}
+.content-box > input:focus{
+    width: 50%;
+    transition: 1.5s;
+    border: 7px double grey;
+}
+.content-box > button{
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family:cursive;
+    font-size: 20px;
+    width: 20%;
+}

@@ -2,20 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .main-box{
     margin: 0px auto;
-    width: 50%;
-}
-.content-box{
-    border: 50px double lightblue;
-    border-radius: 30% 70%;
+    margin-top: 70px;
+    width: 60%;
+    background-color: lightgray;
+    border: 20px double gray;
     text-align: center;
-    height: 280px;
-    margin-top: 120px;
+    border-radius: 50%;
+    height: 300px;
+}
+.main-box:hover{
+    height: 350px;
+    transition: 1.5s;
 }
 .content-box > h2{
     font-family: "Lobster Two";
     font-size: 42px;
-    color: lightsteelblue;
     margin-top: 70px;
+    color: gray;
 }
 .content-box > a{
     font-family: "Comfortaa";
@@ -23,9 +26,9 @@
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    color: lightsteelblue;
     outline: none;
+    color: LightSlateGray;
 }
 .content-box > a:hover{
-    color: steelblue;
+    color: DarkSlateGray;
 }
