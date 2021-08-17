@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 .main-box{
     margin: 0px auto;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 60%;
     background-color: lightgray;
     border: 20px double gray;
     text-align: center;
     border-radius: 50%;
-    height: 450px;
+    height: 500px;
 }
 .main-box:hover{
-    height: 480px;
+    height: 520px;
     transition: 1.5s;
 }
 .content-box > h1{
@@ -53,4 +53,15 @@
     font-family:cursive;
     font-size: 20px;
     width: 20%;
+}
+.content-box > button:hover{
+    border: 3px solid black;
+    color:grey;
+}
+.content-box > a{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(63, 62, 62);
+    font-family: cursive;
+    font-style: oblique;
 }

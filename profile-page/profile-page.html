@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="main-box">
         <div class="content-box">
-            <h1>SignUp</h1>
-            <p>Please Fill In This Form To Create An Account....!</p>
-            <input type="text" id="username" placeholder="User Name">
-            <br>
-            <input type="text" id="email" placeholder="Enter Your Email">
-            <br>
-            <input type="number" id="number" placeholder="Enter Your Number">
-            <br>
-            <input type="password" id="password" placeholder="Enter Your Password">
-            <br>
-            <br>
-            <a href="../login/login.html">Already have an account...?</a>
-            <!-- <br> -->
-            <br>
-            
-            <button onclick="signup()">SignUp</button>
-           
+            <img src="img/profff.jpg" alt="">
+            <p id="name"></p>
+            <p id="email"></p>
+            <p id="number"></p>
+            <p id="password"></p>
         </div>
     </div>
 
-    
-    
+
+
+
     
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
@@ -58,13 +45,13 @@
   firebase.initializeApp(firebaseConfig);
 </script>
  
+<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script src="app.js"></script>
 
 
-<script src="app.js"></script>
 
 
 </body>
-
 </html>

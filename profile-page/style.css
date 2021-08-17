@@ -1,0 +1,14 @@
+.content-box > img{
+    border: 3px solid grey;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background-color: grey; */
+}
+.main-box{
+    text-align: center;
+    background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+    box-shadow: 0 4px 8px 20px rgba(0,0,0,0.2);
+    width: 50%;
+    margin: 0px auto;
+}
