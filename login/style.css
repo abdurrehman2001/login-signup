@@ -65,3 +65,27 @@
     font-family: cursive;
     font-style: oblique;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-box{
+        margin: 0px auto;
+        width: 100%;
+        background-color: Lavender;
+        border: 5px solid gray;
+        text-align: center;
+        border-radius: 0%;
+        height: auto;
+    }
+    .content-box > input{
+        width: auto;
+    } 
+    .content-box > button{
+        padding: px;   
+        border: none;
+        background: none;
+    }
+    .content-box > button:hover{
+        border: none;
+        color:none;
+    }
+  }
